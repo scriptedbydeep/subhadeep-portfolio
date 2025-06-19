@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Subhadeep | Portfolio Home</title>    
+         <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <header>
+        <h1>Welcome To My Portfolio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Halo, Im subhadeep Thapa</h2>
+        <p>A student trying to build clean n cool webs</p>
+        <button onclick="window.open('https://subhadeepthapa-portfolio.netlify.app', '_blank')">
+  🔗 View Live Site
+</button>
+<button onclick="copyLink()"> Copy Site Link
+</button>
+    </section>
+    <section class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+        </ul>
+    </section>
+    <section class="profile-image">
+        <h2>How I Look</h2>
+        <img src="myimage1.jpg" alt="error" width="300">
+    </section>
+    <footer>
+        <p>@ 2025 | Made By Subhadeep | <a href="https://instagram.com/subhdeep_thapa2" target="_blank">Insta</a></p>
+    </footer>
+    <script>
+        function copyLink() {
+            navigator.clipboard.writeText("https://subhadeepthapa-portfolio.netlify.app");
+            alert("Link Copied To Clipboard")
+        }
+        </script>
+    </body>
+</html>
